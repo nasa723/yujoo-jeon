@@ -1,0 +1,62 @@
+.step {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.step__dot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.step__dot--background-red {
+  background: rgb(220, 59, 59);
+}
+
+.step__dot--background-yellow {
+  background: #f7ad46;
+}
+
+.step__dot--background-green {
+  background: rgb(61, 162, 73);
+}
+
+.step__dot--background-blue {
+  background: rgb(57, 106, 180);
+}
+
+.step__dot--background-purple {
+  background: rgb(128, 67, 171);
+}
+
+.step__description--title {
+  font-size: 27px;
+  font-family: NotoSansKR;
+}
+
+.stepper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.stepper__line {
+  position: absolute;
+  top: 12px;
+  bottom: 0;
+  left: 20px;
+  width: 2px;
+  height: calc(100% - 25px);
+  background: black;
+}
+
+.step__description--school {
+  font-style: italic;
+  font-family: NotoSansKR;
+  font-size: 15px;
+  color: rgb(77, 77, 77);
+}
